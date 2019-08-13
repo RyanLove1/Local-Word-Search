@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我要查单词</title>
+    <link rel="stylesheet" href="/static/css/base.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/register.css" type="text/css">
+    <script src="/static/js/jquery-1.11.3.js"></script>
+    <script src="/static/js/register.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <a href="">
+            <img src="/static/images/header/logo.png">
+        </a>
+        <span>我要查单词</span>
+    </div>
+    <div id="main">
+        <form action="/word" method="post" enctype="application/x-www-form-urlencoded">
+            <div class="content">
+                <div class="text">
+                    <span>单词：</span>
+                    <input type="text" name="word" placeholder="输入要查的单词" value={{ word }}>
+                </div>
+                <div class="text pwd">
+                    <span>解释：</span>
+                    <input type="text" class="exp" name="explain" value={{ explain }}></input>
+                </div>
+                <div class="text">
+                    <span></span>
+                    <input type="submit" value="提交查询" class="register">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="bottom">
+        <div>
+            <div class="blog">
+                <a href="">
+                    <img src="/static/images/header/logo.png">
+                </a>
+            </div>
+            <div class="fontImg">
+                <img src="/static/images/footer/footerFont.png">
+            </div>
+        </div>
+        <div class="qr">
+            <div>
+                <p>
+                    皮爷の商城客户端
+                </p>
+                <div>
+                    <img src="/static/images/footer/ios.png">
+                </div>
+                <div>
+                    <img src="/static/images/footer/android.png">
+                </div>
+            </div>
+            <div class="qrright">
+                <img src="/static/images/footer/erweima.png">
+            </div>
+        </div>
+        <p>
+            &copy;2018 皮爷の集团有限公司 版权所有 京ICP证xxxxxxxxxxx
+        </p>
+    </div>
+</body>
+</html>

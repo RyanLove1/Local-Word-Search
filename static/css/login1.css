@@ -1,0 +1,170 @@
+/*外围结构的样式*/
+
+#top, #bottom {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*顶部*/
+
+#top {
+    height: 50px;
+    line-height: 30px;
+}
+
+#top img {
+    width: 168px;
+    border-radius: 10px;
+    /*调整行内块元素左右元素的垂直对齐方式*/
+    vertical-align: bottom;
+}
+
+#top span {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #4f4e4d;
+}
+
+/*主体*/
+
+#main {
+    width: 100%;
+    height: 560px;
+    background: url(../images/regist1.jpg);
+    background-size: 100% 100%; /*等比例缩放*/
+}
+
+#main form {
+    width: 280px;
+    height: 375px;
+    float: right;
+    margin-top: 120px;
+    margin-right: 120px;
+    background: rgba(0, 0, 0, .3);
+}
+
+#main .content {
+    margin: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.content p a {
+    float: right;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.text {
+    position: relative;
+}
+
+.text input {
+    width: 218px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.text img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 3px;
+    top:23px;
+}
+
+.pwd{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.code input{
+    width:100px;
+    float: right;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.code>img{
+    float:left;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.forget{
+    clear: both;
+    color: #fff;
+}
+
+.forget a{
+    color: #fff;
+    float: right;
+}
+
+.login input{
+    width: 260px;
+    background: #8c6c77;
+    border: 0;
+}
+
+/*底部*/
+
+#bottom{
+    height: 150px;
+}
+
+#bottom>div{
+    width: 500px;
+    float: left;
+}
+
+#bottom .blog img {
+    width: 168px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#bottom .fontImg img{
+    width: 500px;
+}
+
+#bottom p{
+    text-align: center;
+    color: #211b1b;
+    clear: both;
+    padding-bottom: 3px;
+}
+
+#bottom .qr{
+    float: right;
+    height: 145px;
+    width: 500px;
+}
+
+.qr>div{
+    margin-left: 80px;
+    margin-top: 30px;
+    float: left;
+}
+
+.qr .qrright{
+    margin-left: 10px;
+}
+
+.qrright img{
+    width:95px;
+    height: 95px;
+}
+

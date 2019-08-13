@@ -1,0 +1,161 @@
+/*外围结构的样式*/
+
+#top, #bottom {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*顶部*/
+
+#top {
+    height: 50px;
+    line-height: 30px;
+}
+
+#top img {
+    width: 168px;
+    border-radius: 10px;
+    /*调整行内块元素左右元素的垂直对齐方式*/
+    vertical-align: bottom;
+}
+
+#top span {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #4f4e4d;
+}
+
+/*主体*/
+
+#main {
+    width: 100%;
+    height: 560px;
+    background: url(../images/regist1.jpg);
+    background-size: 100% 100%; /*等比例缩放*/
+}
+
+#main form {
+    width: 500px;
+    height: 480px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 120px;
+    background: rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+#main .content {
+    margin: 10px;
+    position: absolute;
+    top:100px;
+    left:40px;
+}
+
+.content .exp{
+    width: 220px;
+    height: 65px;
+    margin-top: 40px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.content p a {
+    float: right;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.content span{
+    width:70px;
+    color:#fff;
+    display:inline-block;
+    text-align: right;
+    font-size:16px;
+}
+
+.text .tipsUname{
+    width: 110px;
+    background: red;
+    text-align: center;
+}
+
+.text .hideStyle{
+    display:none;
+}
+
+.text input {
+    width: 218px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+.text .register{
+    width: 260px;
+    height: 35px;
+    background: #997679;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+/*底部*/
+
+#bottom {
+    height: 150px;
+}
+
+#bottom > div {
+    width: 500px;
+    float: left;
+}
+
+#bottom .blog img {
+    width: 168px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#bottom .fontImg img {
+    width: 500px;
+}
+
+#bottom p {
+    text-align: center;
+    color: #211b1b;
+    clear: both;
+    padding-bottom: 3px;
+}
+
+#bottom .qr {
+    float: right;
+    height: 145px;
+    width: 400px;
+}
+
+.qr > div {
+    margin-left: 80px;
+    margin-top: 30px;
+    float: left;
+}
+
+.qr .qrright {
+    margin-left: 10px;
+}
+
+.qrright img {
+    width: 95px;
+    height: 95px;
+}
+
